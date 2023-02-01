@@ -1,0 +1,127 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    font-family: 'Poppins', sans-serif;
+    padding: 2%;
+    padding-top: 0%;
+}
+
+h1 {
+    font-size: 700%;
+    text-align: center;
+    color: rgb(239, 190, 117);
+}
+
+/* MENÚ DE NAVEGACIÓN */
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: gray;
+}
+
+header nav ul li {
+    text-transform: lowercase;
+    list-style-type: none;
+
+}
+
+header a {
+    color: gray;
+    text-decoration: none;
+
+}
+
+h2 {
+    text-align: center;
+    color: gray;
+}
+
+.textos {
+    text-align: justify;
+    padding: 1%;
+}
+/* INDEX */
+.arena { padding: 10%;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-onda-arena-zen-concepto-atencion-plena_53876-129436.jpg?w=2000);
+}
+/* NOSOTRAS */
+.present {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+
+.ficha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.linksAig {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-bottom: 1%;
+}
+
+.ficha p {
+    padding: 2%;
+}
+
+/* IMG PARA TRABAJOS */
+
+main img {
+    max-width: 30%;
+    padding: 1.5%;
+}
+
+/* IMG PARA EMPRENDIMIENTOS */
+.emp {
+    max-height: ;
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(239, 190, 117)
+}
+
+h4 {
+    font-size: 11px;
+    color: gray;
+}
+
+/* MAPA EN CONTACTO */
+.mapa {
+    display: block;
+    margin: auto;
+
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    margin-top: 2%;
+    border-top: solid rgb(239, 190, 117) 2px;
+    text-align: center;
+}
+
+footer ul li {
+    text-transform: lowercase;
+    list-style-type: none;
+}
+
+footer a {
+    color: gray;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer h3 {
+    font-size: 11px;
+    color: gray;
+}
