@@ -1,3 +1,5 @@
+<!--  nuevo inicio -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,29 +8,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mecha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
-<body>
+<body class="container">
     <header>
-        <h1>mecha</h1>
+        <h1 class="animate__animated animate__fadeInLeft">mecha</h1>
 
-        <nav>
-            <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="trabajos.html">Trabajos</a></li>
-                <li><a href="nosotras.html">Nosotras</a></li>
-                <li><a href="emprendimientos.html">Emprendimientos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+        <!-- ///////////// NAV BOOTSTRAP ////// -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a aria-current="page" class="nav-link" href="trabajos.html">Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotras.html">Nosotras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="emprendimientos.html">Emprendimientos</a>
+                        </li>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
         </nav>
-    </header>
 
-    <main class="textos">
-        <h2>nuestros trabajos</h2>
-     <img src="../img/brass.jpg" alt="logo de brass en celular y taza">
-     <img src="../img/frutilla.jpg" alt="afiche colet chocolate con frutilla">
-     <img src="../img/verano.jpg" alt="lettering hola verano!">
+
+     <main class="textos">
+        <h2 class="mt-4 mb-4">nuestros trabajos</h2>
+
+        <div class="row">
+
+            <div class="col-xl-4">
+                
+                <img src="../img/brass.jpg" class="img-fluid rounded" alt="logo de brass en celular y taza">
+           <hr class="border none"> <p class="text-center">
+                   Identidad visual para Brass Herrajes
+                </p>
+            </div>
+            
+            <div class="col-xl-4">
+                
+                <img src="../img/frutilla.jpg" class="img-fluid rounded" alt="afiche colet chocolate con frutilla">
+                <hr class="border none"> <p class="text-center"> Afiche lanzamiento Colet
+                </p>
+            </div>
+
+            <div class="col-xl-4">
+                
+                <img src="../img/verano.jpg" class="img-fluid rounded" alt="lettering hola verano!">
+                <hr class="border none"> <p class="text-center">Lettering Hola Verano</p>
+            </div>
+        </div>
+
+
+
     </main>
 
     <footer>
@@ -40,6 +90,9 @@
             <li><a href="https://uy.linkedin.com/in/marlopezcleffi">Linkedin</a></li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
