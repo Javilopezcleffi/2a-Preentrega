@@ -1,6 +1,7 @@
 body {
     padding: 2%;
     padding-top: 0%;
+    font-family: 'Rowdies';
 }
 
 h1 {
@@ -86,16 +87,25 @@ h2 {
 
 /* IMG PARA TRABAJOS */
 
+.imgTrabajo:hover {
+    filter: contrast(120%);
+    font-weight: 600;
+}
+
+.imgTrabajo2:hover {
+    filter: brightness(150%);
+    font-weight: 600;
+}
+.imgTrabajo3:hover {
+    filter: brightness(120%);
+    font-weight: 600;
+}
+
 /* main img {
     max-width: 30%;
     padding: 1.5%;
 } */
 
-/* IMG PARA EMPRENDIMIENTOS */
-
-.emp {
-    max-height: ;
-}
 
 h3 {
     font-size: 18px;
